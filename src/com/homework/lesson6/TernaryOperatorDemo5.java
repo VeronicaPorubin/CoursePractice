@@ -2,7 +2,7 @@ package com.homework.lesson6;
 
 public class TernaryOperatorDemo5 {
     public static void main(String[] args) {
-        color("102");
+        color("101");
 
     }
 

@@ -9,11 +9,11 @@ public class MinuteConverter {
         System.out.print("Convert minutes into a number of years and days");
         long minutes = time.nextLong ();
 
-        long days = (long) (minutes/60/24)%365;
-        long years = (long) (minutes/(60*24*354));
+        long days = (long) (minutes/60/24);
+        long years = (long) (minutes/(60*24*365));
         time.close();
 
-        System.out.println((long) minutes + " into a number " + years + " of years and " + days + " days= ");
+        System.out.println( minutes + " into a number " + years + " of years and " + days + " days ");
 
 
 
