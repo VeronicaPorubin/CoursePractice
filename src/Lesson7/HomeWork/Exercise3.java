@@ -7,18 +7,17 @@ public class Exercise3 {
 
         Scanner scanner = new Scanner(System.in);
 
-        int number;
-        int reverse = 0;
-        System.out.println ("Enter a positive integer: ");
-        number= scanner.nextInt();
-        while (number !=0) {
-            int remainder = number % 10;
-            reverse = reverse * 10 + remainder;
-            number = number /10;
+        int numbers, reversed = 0;
+        System.out.println("Input positive number: ");
+        numbers = scanner.nextInt();
+        for (; numbers != 0; numbers = numbers / 10) {
+
+            int remainder = numbers % 10;
+            reversed = reversed * 10 + remainder;
+
+            System.out.println("The reverse is: " + reversed);
+
+
         }
-        System.out.println("The reverse is: " + reverse);
-
-
-
     }
 }

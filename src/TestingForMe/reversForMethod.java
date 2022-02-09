@@ -1,6 +1,8 @@
+package TestingForMe;
+
 import java.util.Scanner;
 
-public class test {
+public class reversForMethod {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
@@ -15,8 +17,5 @@ public class test {
 
         }
         System.out.println("The reverse of the given number is: " + reversed);
-
-
     }
 }
-
