@@ -6,7 +6,7 @@ public class Date {
     private int month;
     private int year;
 
-    public int getDay(int i) {
+    public int getDay() {
         return day;
     }
 
